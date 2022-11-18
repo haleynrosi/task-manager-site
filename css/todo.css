@@ -1,0 +1,62 @@
+body {
+    background-color: mistyrose !important;
+}
+
+hr {
+    background-color: rgb(217, 64, 202)!important;
+    height: 10px !important;
+    max-width: 75% !important;
+    margin: auto !important;
+
+}
+.removalButton {
+    background-color: white;
+    font-family: 'Bungee', cursive !important;
+    border: none;
+    text-decoration-color: rgb(236, 107, 191);
+}
+
+.addButton {
+    background-color: rgb(236, 107, 191) !important;
+    font-family: 'Bungee', cursive !important;
+    margin-left: 5px;
+    border-color: rgb(236, 107, 191);
+    border-radius: 10px;
+    border-style: solid;
+
+    
+}
+
+input[type='text']{
+    font-family: 'Indie Flower', cursive;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+input {
+    border-style: solid;
+    border-color: rgb(236, 107, 191);
+    border-radius: 5px;
+}
+
+
+.divTask {
+    background-color: white !important;
+    flex-direction: column !important;
+    margin-bottom: 12px !important;
+    margin-top: 12px;
+    min-height: 50px;
+    width: 35%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(236, 107, 191);
+}
+
+.taskLabel {
+    font-family: 'Indie Flower', cursive;
+    color:black ;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* "col m-3 w-50 h-10" */
