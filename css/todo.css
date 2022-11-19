@@ -7,18 +7,33 @@ hr {
     height: 10px !important;
     max-width: 75% !important;
     margin: auto !important;
+}
+
+
+
+.container{
+    text-align: center;
+    font-family: 'Bungee' ,cursive !important;
 
 }
+
+.enterTaskDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bungee';
+    font-size: 18px;
+
+}
+
 .removalButton {
-    background-color: white;
+    background-color: rgb(236, 107, 191);
     font-family: 'Bungee', cursive !important;
     border: none;
-    text-decoration-color: rgb(236, 107, 191);
 }
 
 .addButton {
     background-color: rgb(236, 107, 191) !important;
-    font-family: 'Bungee', cursive !important;
     margin-left: 5px;
     border-color: rgb(236, 107, 191);
     border-radius: 10px;
@@ -28,20 +43,16 @@ hr {
 }
 
 input[type='text']{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lilita One', cursive;
     font-size: larger;
     font-weight: bolder;
 }
 
-input {
-    border-style: solid;
-    border-color: rgb(236, 107, 191);
-    border-radius: 5px;
-}
+
 
 
 .divTask {
-    background-color: white !important;
+    background-color: rgb(236, 107, 191) !important;
     flex-direction: column !important;
     margin-bottom: 12px !important;
     margin-top: 12px;
@@ -53,10 +64,12 @@ input {
 }
 
 .taskLabel {
-    font-family: 'Indie Flower', cursive;
-    color:black ;
+    font-family: 'Lilita One', cursive;
     font-size: larger;
     font-weight: bolder;
+    border-style: solid;
+    border-color: rgb(236, 107, 191);
+    border-radius: 10px;
 }
 
 /* "col m-3 w-50 h-10" */
